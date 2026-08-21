@@ -23,7 +23,7 @@ function Woman() {
     setLoading(true);
 
     apiFetch(
-      `/products?page=${currentPage}&limit=${productsPerPage}&gender=women,unisex,`
+      `/products?page=${currentPage}&limit=${productsPerPage}&gender=woman,unisex&category=clothing`
     )
       .then((data) => {
         if (!active) return;
