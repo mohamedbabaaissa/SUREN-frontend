@@ -1,0 +1,128 @@
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer {
+    width: 100%;
+    min-height: 200px;
+    padding: 30px 28px;
+    background-color: #f5f5f3;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1.2fr;
+    gap: 50px;
+
+    box-sizing: border-box;
+}
+
+.boutiques,
+.services,
+.social,
+.read {
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Titles */
+.boutiques h3,
+.services h3,
+.social h3,
+.read h3 {
+    margin: 0 0 18px 0;
+
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+
+    color: #001b3d;
+
+    width: fit-content;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #dddddd;
+}
+
+/* List items */
+.boutiques li,
+.services li,
+.read li {
+    list-style: none;
+
+    margin-bottom: 19px;
+
+    font-size: 19px;
+    font-weight: 400;
+
+    color: #172d47;
+}
+
+/* Boutiques React Router Links  */
+.boutiques a {
+    color: #172d47;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.boutiques a:hover {
+    opacity: 0.6;
+}
+
+/* resaux inta ey fb */
+.social a {
+    margin-bottom: 14px;
+
+    font-size: 19px;
+    font-weight: 400;
+
+    color: #172d47;
+    text-decoration: none;
+
+    width: fit-content;
+    transition: opacity 0.2s ease;
+}
+
+.social a:hover {
+    opacity: 0.6;
+}
+
+/* SUREN section */
+.read {
+    align-items: center;
+    text-align: center;
+}
+
+.read h3 {
+    font-family: Georgia, serif;
+
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 4px;
+
+    color: #111;
+
+    border: none;
+    padding: 0;
+
+    margin: 0 0 25px 0;
+}
+
+/* Description */
+.read li {
+    list-style: none;
+}
+
+.read p {
+    margin: 0;
+
+    font-family: Georgia, serif;
+    font-size: 17px;
+    font-style: italic;
+
+    color: #222;
+
+    max-width: 250px;
+    line-height: 1.5;
+}

@@ -1,0 +1,4 @@
+/* Men's page — accent colour override */
+.page-hero--man .page-hero-content h2 {
+  color: darkblue;
+}

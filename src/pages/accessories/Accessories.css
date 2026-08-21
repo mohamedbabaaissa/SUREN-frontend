@@ -1,0 +1,4 @@
+/* Accessories page — accent colour override */
+.page-hero--acc .page-hero-content h2 {
+  color: #8b6914;
+}
