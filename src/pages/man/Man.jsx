@@ -27,7 +27,7 @@ function Man() {
     setLoading(true);
 
     apiFetch(
-      `/products?page=${currentPage}&limit=${productsPerPage}&gender=men,unisex,`
+      `/products?page=${currentPage}&limit=${productsPerPage}&gender=men,unisex&category=clothing`
     )
       .then((data) => {
         if (!active) return;
